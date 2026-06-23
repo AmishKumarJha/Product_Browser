@@ -1,3 +1,5 @@
+**Deployed Link :** https://product-browser-two.vercel.app/
+
 # Product Browser
 
 A scalable product browsing application built with **Node.js, Express, PostgreSQL, and React** that supports browsing **200,000+ products**, category filtering, and high-performance pagination while maintaining consistency when data changes during browsing.
