@@ -30,9 +30,13 @@ function App() {
         params.append("snapshotTime", snapshot);
       }
 
+      // const response = await axios.get(
+      //   `http://localhost:5000/products?${params.toString()}`
+      // );
       const response = await axios.get(
-        `http://localhost:5000/products?${params.toString()}`
-      );
+  `${import.meta.env.VITE_API_URL}/products?${params.toString()}`
+);
+
 
       setProducts(response.data.products);
       setNextCursor(response.data.nextCursor);
